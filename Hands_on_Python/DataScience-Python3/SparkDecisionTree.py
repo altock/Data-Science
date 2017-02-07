@@ -66,10 +66,10 @@ model = DecisionTree.trainClassifier(trainingData, numClasses=2,
 # the source data into a training set and a test set while tuning
 # parameters and measure accuracy as you go!)
 predictions = model.predict(testData)
-print ('Hire prediction:')
+print('Hire prediction:')
 results = predictions.collect()
 for result in results:
-    print result
+    print(result)
 
 # We can also print out the decision tree itself:
 print('Learned classification tree model:')

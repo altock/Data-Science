@@ -45,5 +45,5 @@ gettysburgRelevance = tfidf.map(lambda x: x[gettysburgHashValue])
 zippedResults = gettysburgRelevance.zip(documentNames)
 
 # And, print the document with the maximum TF*IDF value:
-print "Best document for Gettysburg is:"
-print zippedResults.max()
+print("Best document for Gettysburg is:")
+print(zippedResults.max())

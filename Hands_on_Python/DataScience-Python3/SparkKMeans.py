@@ -33,13 +33,13 @@ clusters = KMeans.train(data, K, maxIterations=10,
 # Print out the cluster assignments
 resultRDD = data.map(lambda point: clusters.predict(point)).cache()
 
-print "Counts by value:"
+print("Counts by value:")
 counts = resultRDD.countByValue()
-print counts
+print(counts)
 
-print "Cluster assignments:"
+print("Cluster assignments:")
 results = resultRDD.collect()
-print results
+print(results)
 
 
 # Evaluate clustering by computing Within Set Sum of Squared Errors
