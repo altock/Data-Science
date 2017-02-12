@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Feb 11 10:37:46 EST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015a-2dd2-acac-000014d115d0 
+on database directory /home/altock/Documents/Data-Science/Hands_on_Python/DataScience-Python3/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@1d1e653b 
+Loaded from file:/usr/local/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=/home/altock/Documents/Data-Science/Hands_on_Python/DataScience-Python3
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-62-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
